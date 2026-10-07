@@ -1,0 +1,56 @@
+[project]
+name = "nqs-ann-unitary"
+version = "0.1.0"
+description = "Adaptive autoregressive neural quantum states with sampled-Ritz basis rotations"
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = [
+	"neural-quantum-states",
+	"autoregressive-transformer",
+	"sampled-ritz",
+	"basis-rotation",
+	"jax",
+	"netket",
+]
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Intended Audience :: Science/Research",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Topic :: Scientific/Engineering :: Physics",
+]
+# general-log is the vendored submodule deps/general_log: pip install -e deps/general_log (see requirements.txt).
+dependencies = [
+	"flax>=0.10",
+	"h5py>=3.11",
+	"ipympl>=0.9",
+	"ipywidgets>=8.1",
+	"jax>=0.5",
+	"jedi>=0.19",
+	"jupyterlab_widgets>=3.0",
+	"matplotlib>=3.9",
+	"netket>=3.22",
+	"numpy>=2.0",
+	"optax>=0.2",
+	"rich>=13.7",
+	"scipy>=1.15",
+	"tqdm>=4.66",
+]
+
+[project.urls]
+Repository = "https://github.com/AI4Quantum/nqs-ann-unitary"
+Documentation = "https://github.com/AI4Quantum/nqs-ann-unitary/tree/main/docs"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+dmrg = ["quimb>=1.7"]			# optional: final DMRG reference solve (src/final_solvers.py)
+fermion = ["openfermion>=1.7"]	# optional: Hubbard orbital-rotation loop and exact validation
+gpu  = ["jax[cuda12]>=0.5"]		# optional local CUDA 12 JAX build; on HPC/JupyterHub install the GPU JAX wheel matching the loaded CUDA module
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+# The optional DMRG reference check is marked `slow` and deselected by default.
+addopts = "-m 'not slow'"
+markers = ["slow: optional DMRG reference check; deselected by default"]

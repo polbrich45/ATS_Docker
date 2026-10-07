@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.log
+# Data
+data/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# VS Code settings
+.vscode/
+*.review*
+*review*
+*DS_Store
+
+*settings.json
+*manifest.json
+*baseline.json
+*history.json
+*rotated.json
+*summary.json
+*gates.json
+*metadata.json
+
+# pdfs
+*.pdf
+
+# weights
+*weights.h5
+*records.h5
+
+# numpy
+*.npy
+
+# runs
+*runs/
+# experiment scratch output
+scripts/e3_out.txt
+
+# generated experiment logs (numbers live in docs/validation.md)
+scripts/*_out.txt

@@ -1,0 +1,6 @@
+[submodule "deps/general_plot"]
+	path = deps/general_plot
+	url = https://github.com/makskliczkowski/general_plot
+[submodule "deps/general_log"]
+	path = deps/general_log
+	url = https://github.com/makskliczkowski/general_log

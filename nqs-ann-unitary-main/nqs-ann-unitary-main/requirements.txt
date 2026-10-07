@@ -1,0 +1,15 @@
+flax>=0.10
+h5py>=3.11
+ipympl>=0.9
+ipywidgets>=8.1
+jax>=0.5
+jedi>=0.19
+jupyterlab_widgets>=3.0
+matplotlib>=3.9
+netket>=3.22
+numpy>=2.0
+optax>=0.2
+rich>=13.7
+scipy>=1.15
+tqdm>=4.66
+-e ./deps/general_log	# vendored submodule; git submodule update --init --recursive

@@ -1,0 +1,92 @@
+[
+  {
+    "system": "j1j2",
+    "block": "architecture",
+    "config": {
+      "width": 64,
+      "depth": 4,
+      "heads": 8,
+      "phase_scale": 0.0
+    },
+    "base": {
+      "hamiltonian": "j1j2",
+      "lattice": "square",
+      "lx": 4,
+      "ly": 4,
+      "j1": 1.0,
+      "j2": 0.5
+    }
+  },
+  {
+    "system": "j1j2",
+    "block": "architecture",
+    "config": {
+      "width": 48,
+      "depth": 3,
+      "heads": 8,
+      "phase_scale": 1.0
+    },
+    "base": {
+      "hamiltonian": "j1j2",
+      "lattice": "square",
+      "lx": 4,
+      "ly": 4,
+      "j1": 1.0,
+      "j2": 0.5
+    }
+  },
+  {
+    "system": "j1j2",
+    "block": "architecture",
+    "config": {
+      "width": 48,
+      "depth": 2,
+      "heads": 8,
+      "phase_scale": 1.0
+    },
+    "base": {
+      "hamiltonian": "j1j2",
+      "lattice": "square",
+      "lx": 4,
+      "ly": 4,
+      "j1": 1.0,
+      "j2": 0.5
+    }
+  },
+  {
+    "system": "j1j2",
+    "block": "architecture",
+    "config": {
+      "width": 48,
+      "depth": 3,
+      "heads": 4,
+      "phase_scale": 0.5
+    },
+    "base": {
+      "hamiltonian": "j1j2",
+      "lattice": "square",
+      "lx": 4,
+      "ly": 4,
+      "j1": 1.0,
+      "j2": 0.5
+    }
+  },
+  {
+    "system": "j1j2",
+    "block": "architecture",
+    "config": {
+      "width": 32,
+      "depth": 4,
+      "heads": 4,
+      "phase_scale": 0.5
+    },
+    "base": {
+      "hamiltonian": "j1j2",
+      "lattice": "square",
+      "lx": 4,
+      "ly": 4,
+      "j1": 1.0,
+      "j2": 0.5
+    }
+  }
+]

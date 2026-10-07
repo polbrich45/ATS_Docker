@@ -1,0 +1,30 @@
+[
+  {
+    "system": "j1j2",
+    "group": "architecture",
+    "index": 0,
+    "seed": 0,
+    "settings": {
+      "width": 32,
+      "depth": 2,
+      "heads": 4,
+      "mlp_ratio": 2,
+      "phase_head_depth": 0,
+      "phase_scale": 0.0
+    }
+  },
+  {
+    "system": "j1j2",
+    "group": "architecture",
+    "index": 1,
+    "seed": 0,
+    "settings": {
+      "width": 32,
+      "depth": 2,
+      "heads": 4,
+      "mlp_ratio": 2,
+      "phase_head_depth": 0,
+      "phase_scale": 0.5
+    }
+  }
+]

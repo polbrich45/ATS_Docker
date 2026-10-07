@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1600 1120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-381,852)">
+        <g transform="matrix(1,0,0,1,826,-699)">
+            <text x="-347.949px" y="0px" style="font-family:'Helvetica';font-size:40px;fill:rgb(17,17,17);">Adaptive-Basis Neural Quantum States</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-93,27)">
+        <g transform="matrix(1,0,0,1,205,172)">
+            <text x="-15.277px" y="0px" style="font-family:'Helvetica';font-size:25px;fill:rgb(17,17,17);stroke:black;stroke-width:1px;">(a)</text>
+        </g>
+        <g transform="matrix(1,0,0,1,563,172)">
+            <text x="-15.277px" y="0px" style="font-family:'Helvetica';font-size:25px;fill:rgb(17,17,17);stroke:black;stroke-width:1px;">(b)</text>
+        </g>
+        <g transform="matrix(1,0,0,1,921,172)">
+            <text x="-14.575px" y="0px" style="font-family:'Helvetica';font-size:25px;fill:rgb(17,17,17);stroke:black;stroke-width:1px;">(c)</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1279,172)">
+            <text x="-15.277px" y="0px" style="font-family:'Helvetica';font-size:25px;fill:rgb(17,17,17);stroke:black;stroke-width:1px;">(d)</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,53,25)">
+        <g transform="matrix(1,0,0,1,0,1)">
+            <path d="M370,208L370,732C370,741.934 361.934,750 352,750L58,750C48.066,750 40,741.934 40,732L40,208C40,198.066 48.066,190 58,190L352,190C361.934,190 370,198.066 370,208Z" style="fill:rgb(243,247,253);stroke:rgb(31,78,158);stroke-width:2.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <path d="M728,208L728,732C728,741.934 719.934,750 710,750L416,750C406.066,750 398,741.934 398,732L398,208C398,198.066 406.066,190 416,190L710,190C719.934,190 728,198.066 728,208Z" style="fill:rgb(200,255,237);stroke:rgb(0,156,105);stroke-width:2.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M1086,208L1086,732C1086,741.934 1077.934,750 1068,750L774,750C764.066,750 756,741.934 756,732L756,208C756,198.066 764.066,190 774,190L1068,190C1077.934,190 1086,198.066 1086,208Z" style="fill:rgb(255,247,239);stroke:rgb(230,106,0);stroke-width:2.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M1444,208L1444,732C1444,741.934 1435.934,750 1426,750L1132,750C1122.066,750 1114,741.934 1114,732L1114,208C1114,198.066 1122.066,190 1132,190L1426,190C1435.934,190 1444,198.066 1444,208Z" style="fill:rgb(255,255,231);stroke:rgb(149,137,0);stroke-width:2.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,53,25)">
+        <g transform="matrix(3.375055,0,0,3.375055,-704.292994,-809.074055)">
+            <text x="283.824px" y="340.076px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:12px;">∣Ψ</text>
+            <text x="295.728px" y="344.072px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:6.996px;">ω</text>
+            <g transform="matrix(12,0,0,12,304.413242,340.076423)">
+            </g>
+            <text x="300.345px" y="340.076px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:12px;">⟩</text>
+        </g>
+        <g transform="matrix(1,0,0,1,205,224)">
+            <text x="-107.599px" y="0px" style="font-family:'Helvetica';font-size:21px;fill:rgb(31,78,158);">1. <tspan x="-84.62px -72.562px -65.569px " y="0px 0px 0px ">Tra</tspan>in</text>
+            <text x="-31.71px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:21px;fill:rgb(31,78,158);">AR NQS</text>
+            <text x="55.797px" y="0px" style="font-family:'Helvetica';font-size:21px;fill:rgb(31,78,158);">on</text>
+            <text x="84.989px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:21px;fill:rgb(31,78,158);">H</text>
+            <text x="101.306px" y="6.993px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:12.243px;fill:rgb(31,78,158);">θ</text>
+        </g>
+        <g>
+            <path d="M110,285L152,285" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <path d="M110,285L110,327" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="110" cy="285" r="6" style="fill:rgb(31,78,158);"/>
+            <path d="M152,285L194,285" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <path d="M152,285L152,327" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="152" cy="285" r="6" style="fill:rgb(31,78,158);"/>
+            <path d="M194,285L236,285" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <path d="M194,285L194,327" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="194" cy="285" r="6" style="fill:rgb(31,78,158);"/>
+            <path d="M236,285L236,327" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="236" cy="285" r="6" style="fill:rgb(31,78,158);"/>
+            <path d="M110,327L152,327" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <path d="M110,327L110,369" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="110" cy="327" r="6" style="fill:rgb(31,78,158);"/>
+            <path d="M152,327L194,327" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <path d="M152,327L152,369" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="152" cy="327" r="6" style="fill:rgb(31,78,158);"/>
+            <path d="M194,327L236,327" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <path d="M194,327L194,369" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="194" cy="327" r="6" style="fill:rgb(31,78,158);"/>
+            <path d="M236,327L236,369" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="236" cy="327" r="6" style="fill:rgb(31,78,158);"/>
+            <circle cx="110" cy="369" r="6" style="fill:rgb(31,78,158);"/>
+            <circle cx="152" cy="369" r="6" style="fill:rgb(31,78,158);"/>
+            <circle cx="194" cy="369" r="6" style="fill:rgb(31,78,158);"/>
+            <circle cx="236" cy="369" r="6" style="fill:rgb(31,78,158);"/>
+        </g>
+        <path d="M110,369L152,369" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M152,369L194,369" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M194,369L236,369" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,-30,-1)">
+            <path d="M205,380L205,415" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <g transform="matrix(1,0,0,0.710345,2,120.655172)">
+            <path d="M275,439.709L275,545.291C275,556.169 268.727,565 261,565L84,565C76.273,565 70,556.169 70,545.291L70,439.709C70,428.831 76.273,420 84,420L261,420C268.727,420 275,428.831 275,439.709Z" style="fill:white;stroke:rgb(31,78,158);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,175,445)">
+            <text x="-65.591px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(17,17,17);">autoregressive</text>
+        </g>
+        <g transform="matrix(1,0,0,1,175,470)">
+            <text x="-54.087px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(17,17,17);">T<tspan x="-42.603px -35.942px " y="0px 0px ">ra</tspan>nsformer</text>
+        </g>
+        <g transform="matrix(1,0,0,1,12,-49)">
+            <circle cx="100" cy="540" r="10" style="fill:rgb(111,160,232);stroke:rgb(31,78,158);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="142" cy="540" r="10" style="fill:rgb(111,160,232);stroke:rgb(31,78,158);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="184" cy="540" r="10" style="fill:rgb(111,160,232);stroke:rgb(31,78,158);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <circle cx="226" cy="540" r="10" style="fill:rgb(111,160,232);stroke:rgb(31,78,158);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,174,540)">
+            <text x="-52.465px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">1   2   3   ...   N</text>
+        </g>
+        <g transform="matrix(1,0,0,1,0,10)">
+            <g transform="matrix(1,0,0,1,-8,-35)">
+                <path d="M355,438L355,480C355,484.415 351.415,488 347,488L313,488C308.585,488 305,484.415 305,480L305,438C305,433.585 308.585,430 313,430L347,430C351.415,430 355,433.585 355,438Z" style="fill:white;stroke:rgb(31,78,158);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,322,418)">
+                <g transform="matrix(15,0,0,15,14.589844,0)">
+                </g>
+                <text x="-14.59px" y="0px" style="font-family:'Helvetica';font-size:15px;fill:rgb(17,17,17);">amp</text>
+            </g>
+            <g transform="matrix(1,0,0,1,322,439)">
+                <text x="-16.685px" y="0px" style="font-family:'Helvetica';font-size:15px;fill:rgb(17,17,17);">head</text>
+            </g>
+        </g>
+        <g>
+            <g transform="matrix(1,0,0,1,-8,-38)">
+                <path d="M355,518L355,560C355,564.415 351.415,568 347,568L313,568C308.585,568 305,564.415 305,560L305,518C305,513.585 308.585,510 313,510L347,510C351.415,510 355,513.585 355,518Z" style="fill:white;stroke:rgb(230,106,0);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,322,497)">
+                <g transform="matrix(15,0,0,15,20.43457,0)">
+                </g>
+                <text x="-20.435px" y="0px" style="font-family:'Helvetica';font-size:15px;fill:rgb(17,17,17);">phase</text>
+            </g>
+            <g transform="matrix(1,0,0,1,322,516)">
+                <text x="-16.685px" y="0px" style="font-family:'Helvetica';font-size:15px;fill:rgb(17,17,17);">head</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,0,-31)">
+            <g transform="matrix(1,0,0,1,60,620)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">• autoregressive <tspan x="119.156px 128.344px 133.672px " y="0px 0px 0px ">Tra</tspan>nsformer</text>
+            </g>
+            <g transform="matrix(1,0,0,1,60,649)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">• separate amplitude and phase heads</text>
+            </g>
+            <g transform="matrix(1,0,0,1,60,678)">
+                <g transform="matrix(16,0,0,16,281.289062,0)">
+                </g>
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">• exact Born sampling, normalized state</text>
+            </g>
+            <g transform="matrix(1,0,0,1,60,707)">
+                <g transform="matrix(16,0,0,16,160.304688,0)">
+                </g>
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">• NetKet VMC / minSR</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,205,725)">
+            <g transform="matrix(18,0,0,18,124.536621,0)">
+            </g>
+            <text x="-124.537px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:18px;fill:rgb(31,78,158);">optimize network parameters</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,53,25)">
+        <g transform="matrix(1,0,0,1,563,224)">
+            <text x="-137.193px" y="0px" style="font-family:'Helvetica';font-size:21px;fill:rgb(0,156,105);">2. Build sampled</text>
+            <text x="23.896px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:21px;fill:rgb(0,156,105);">subspace</text>
+            <text x="126.609px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:21px;fill:rgb(0,156,105);">S</text>
+        </g>
+        <path d="M556,260L556,321C556,327.623 550.623,333 544,333L428,333C421.377,333 416,327.623 416,321L416,260C416,253.377 421.377,248 428,248L544,248C550.623,248 556,253.377 556,260Z" style="fill:white;stroke:rgb(31,78,158);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,-1,7)">
+            <g transform="matrix(1,0,0,1,486,278)">
+                <text x="-12.502px" y="0px" style="font-family:'Helvetica';font-size:18px;fill:rgb(31,78,158);">AR</text>
+            </g>
+            <g transform="matrix(1,0,0,1,486,301)">
+                <text x="-48.678px" y="0px" style="font-family:'Helvetica';font-size:18px;fill:rgb(31,78,158);">T<tspan x="-38.342px -32.348px " y="0px 0px ">ra</tspan>nsformer</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,0,5)">
+            <g transform="matrix(1,0,0,1,634,249)">
+                <text x="-47.137px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">sampled spin</text>
+                <g transform="matrix(16,0,0,16,-24.011719,16)">
+                </g>
+                <g transform="matrix(16,0,0,16,-19.566406,16)">
+                </g>
+                <g transform="matrix(16,0,0,16,49.808594,16)">
+                </g>
+                <text x="-49.809px" y="16px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">conﬁgurations</text>
+            </g>
+            <g transform="matrix(1,0,0,1,3,1)">
+                <g transform="matrix(1,0,0,1,633,288)">
+                    <text x="-40.823px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↑</text>
+                    <text x="-25.135px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↓</text>
+                    <text x="-9.446px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↑</text>
+                    <text x="6.242px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↓</text>
+                    <text x="26.654px" y="0px" style="font-family:'Helvetica';font-size:17px;fill:rgb(17,17,17);">...</text>
+                </g>
+                <g transform="matrix(1,0,0,1,633,312)">
+                    <text x="-40.823px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↓</text>
+                    <text x="-25.135px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↑</text>
+                    <text x="-9.446px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↓</text>
+                    <text x="6.242px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↓</text>
+                    <text x="26.654px" y="0px" style="font-family:'Helvetica';font-size:17px;fill:rgb(17,17,17);">...</text>
+                </g>
+                <g transform="matrix(1,0,0,1,633,336)">
+                    <text x="-40.823px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↑</text>
+                    <text x="-25.135px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↑</text>
+                    <text x="-9.446px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↓</text>
+                    <text x="6.242px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:17px;fill:rgb(17,17,17);">↑</text>
+                    <text x="26.654px" y="0px" style="font-family:'Helvetica';font-size:17px;fill:rgb(17,17,17);">...</text>
+                </g>
+            </g>
+        </g>
+        <path d="M700,373L700,397C700,401.415 696.415,405 692,405L434,405C429.585,405 426,401.415 426,397L426,373C426,368.585 429.585,365 434,365L692,365C696.415,365 700,368.585 700,373Z" style="fill:white;stroke:rgb(85,85,85);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,563,391)">
+            <g transform="matrix(16,0,0,16,69.538906,0)">
+            </g>
+            <text x="-69.539px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">unique top<tspan x="5.515px " y="0px "> </tspan>samples</text>
+        </g>
+        <path d="M700,428L700,452C700,456.415 696.415,460 692,460L434,460C429.585,460 426,456.415 426,452L426,428C426,423.585 429.585,420 434,420L692,420C696.415,420 700,423.585 700,428Z" style="fill:white;stroke:rgb(85,85,85);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,563,446)">
+            <g transform="matrix(16,0,0,16,37.800781,0)">
+            </g>
+            <text x="-37.801px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">seed set S</text>
+        </g>
+        <path d="M563,405L563,420" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M563,460L563,475" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,0,-109)">
+            <path d="M700,593L700,637C700,641.415 696.415,645 692,645L434,645C429.585,645 426,641.415 426,637L426,593C426,588.585 429.585,585 434,585L692,585C696.415,585 700,588.585 700,593Z" style="fill:rgb(237,244,255);stroke:rgb(31,78,158);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,563,500)">
+            <text x="-87.666px" y="0px" style="font-family:'Helvetica';font-size:19px;fill:rgb(0,156,105);">selected subspace S</text>
+        </g>
+        <g transform="matrix(1,0,0,1,563,524)">
+            <text x="-40.599px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:26px;fill:rgb(31,78,158);">|S| = M</text>
+        </g>
+        <g transform="matrix(1,0,0,1,480,592)">
+            <text x="0px" y="0px" style="font-family:'STIXTwoText', 'STIX Two Text';font-size:36px;fill:rgb(0,156,105);">H</text>
+            <text x="27.972px" y="11.988px" style="font-family:'STIXTwoText', 'STIX Two Text';font-size:20.988px;fill:rgb(0,156,105);">S</text>
+            <text x="38.55px" y="0px" style="font-family:'STIXTwoText', 'STIX Two Text';font-size:36px;fill:rgb(0,156,105);">=P</text>
+            <text x="84.954px" y="11.988px" style="font-family:'STIXTwoText', 'STIX Two Text';font-size:20.988px;fill:rgb(0,156,105);">S</text>
+            <text x="95.532px" y="0px" style="font-family:'STIXTwoText', 'STIX Two Text';font-size:36px;fill:rgb(0,156,105);">H</text>
+            <text x="123.504px" y="11.988px" style="font-family:'STIXTwoText', 'STIX Two Text';font-size:20.988px;fill:rgb(0,156,105);">θ</text>
+            <text x="134.292px" y="0px" style="font-family:'STIXTwoText', 'STIX Two Text';font-size:36px;fill:rgb(0,156,105);">P</text>
+            <g transform="matrix(20.988,0,0,20.988,165.353688,11.988)">
+            </g>
+            <text x="154.776px" y="11.988px" style="font-family:'STIXTwoText', 'STIX Two Text';font-size:20.988px;fill:rgb(0,156,105);">S</text>
+        </g>
+        <g transform="matrix(1,0,0,1,0,11)">
+            <g transform="matrix(1,0,0,1,-93,-47)">
+                <path d="M696,669L696,719C696,721.208 694.208,723 692,723L622,723C619.792,723 618,721.208 618,719L618,669C618,666.792 619.792,665 622,665L692,665C694.208,665 696,666.792 696,669Z" style="fill:white;stroke:rgb(94,94,94);stroke-width:1px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-90,-45)">
+                <rect x="624" y="670" width="8" height="7" style="fill:rgb(31,78,158);"/>
+                <rect x="637" y="670" width="8" height="7" style="fill:rgb(31,78,158);"/>
+                <rect x="637" y="680" width="8" height="7" style="fill:rgb(31,78,158);"/>
+                <rect x="650" y="680" width="8" height="7" style="fill:rgb(31,78,158);"/>
+                <rect x="650" y="690" width="8" height="7" style="fill:rgb(31,78,158);"/>
+                <rect x="663" y="690" width="8" height="7" style="fill:rgb(31,78,158);"/>
+                <rect x="663" y="700" width="8" height="7" style="fill:rgb(31,78,158);"/>
+                <rect x="676" y="700" width="8" height="7" style="fill:rgb(31,78,158);"/>
+                <rect x="676" y="710" width="8" height="7" style="fill:rgb(31,78,158);"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,563,725)">
+            <g transform="matrix(18,0,0,18,158.66666,0)">
+            </g>
+            <text x="-158.667px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:18px;fill:rgb(0,156,105);">sample and sele<tspan x="-19.417px " y="0px ">c</tspan>t relevant subspace</text>
+        </g>
+        <path d="M374,470L390,470" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,53,25)">
+        <g transform="matrix(1,0,0,1,921,224)">
+            <g transform="matrix(21,0,0,21,-77.241178,0)">
+            </g>
+            <g transform="matrix(21,0,0,21,-71.406705,0)">
+            </g>
+            <text x="-127.434px" y="0px" style="font-family:'Helvetica';font-size:21px;fill:rgb(230,106,0);">3. Reﬁne</text>
+            <text x="-37.548px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:21px;fill:rgb(230,106,0);">shallow</text>
+            <text x="45.303px" y="0px" style="font-family:'Helvetica';font-size:21px;fill:rgb(230,106,0);">circuit U</text>
+            <text x="121.141px" y="6.993px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:12.243px;fill:rgb(230,106,0);">θ</text>
+        </g>
+        <path d="M778,285L951,285" style="fill:none;fill-rule:nonzero;stroke:rgb(34,34,34);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M778,319L951,319" style="fill:none;fill-rule:nonzero;stroke:rgb(34,34,34);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M778,353L951,353" style="fill:none;fill-rule:nonzero;stroke:rgb(34,34,34);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M831,275L831,363C831,364.104 830.104,365 829,365L813,365C811.896,365 811,364.104 811,363L811,275C811,273.896 811.896,273 813,273L829,273C830.104,273 831,273.896 831,275Z" style="fill:rgb(255,226,199);stroke:rgb(230,106,0);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M886,275L886,363C886,364.104 885.104,365 884,365L868,365C866.896,365 866,364.104 866,363L866,275C866,273.896 866.896,273 868,273L884,273C885.104,273 886,273.896 886,275Z" style="fill:white;stroke:rgb(94,94,94);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M941,275L941,363C941,364.104 940.104,365 939,365L923,365C921.896,365 921,364.104 921,363L921,275C921,273.896 921.896,273 923,273L939,273C940.104,273 941,273.896 941,275Z" style="fill:rgb(255,226,199);stroke:rgb(230,106,0);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,1,18)">
+            <g transform="matrix(1,0,0,1,1011,292)">
+                <text x="-42.517px" y="0px" style="font-family:'Helvetica';font-size:17px;fill:rgb(17,17,17);">Pauli-string</text>
+            </g>
+            <g transform="matrix(1,0,0,1,1011,316)">
+                <text x="-43.479px" y="0px" style="font-family:'Helvetica';font-size:17px;fill:rgb(17,17,17);">conjugation</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-19,0)">
+            <g transform="matrix(1,0,0,1,863,418)">
+                <text x="-48.91px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">projected Ritz</text>
+                <text x="-51.152px" y="16px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">diagonalization</text>
+            </g>
+            <path d="M920,449L920,521C920,523.208 918.208,525 916,525L814,525C811.792,525 810,523.208 810,521L810,449C810,446.792 811.792,445 814,445L916,445C918.208,445 920,446.792 920,449Z" style="fill:white;stroke:rgb(94,94,94);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <path d="M834,540L896,540" style="fill:none;fill-rule:nonzero;stroke:rgb(94,94,94);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="863" y="487" width="8" height="28" style="fill:white;stroke:rgb(17,17,17);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <path d="M931,568L931,598C931,602.415 927.415,606 923,606L809,606C804.585,606 801,602.415 801,598L801,568C801,563.585 804.585,560 809,560L923,560C927.415,560 931,563.585 931,568Z" style="fill:white;stroke:rgb(230,106,0);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <g transform="matrix(1,0,0,1,866,590)">
+                <text x="-45.42px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:20px;fill:rgb(17,17,17);">H</text>
+                <text x="-30.723px" y="6.66px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:11.66px;fill:rgb(17,17,17);">S</text>
+                <text x="-24.443px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:20px;fill:rgb(17,17,17);">v</text>
+                <text x="-14.091px" y="6.66px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:11.66px;fill:rgb(17,17,17);">0</text>
+                <text x="-6.718px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:20px;fill:rgb(17,17,17);">=e</text>
+                <text x="20.323px" y="6.66px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:11.66px;fill:rgb(17,17,17);">0</text>
+                <text x="27.695px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:20px;fill:rgb(17,17,17);">v</text>
+                <g transform="matrix(11.66,0,0,11.66,45.419941,6.66)">
+                </g>
+                <text x="38.047px" y="6.66px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:11.66px;fill:rgb(17,17,17);">0</text>
+            </g>
+            <path d="M866,606L866,632" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <path d="M865,525L865,540" style="fill:none;fill-rule:nonzero;stroke:rgb(94,94,94);stroke-width:3px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="821" y="497" width="8" height="18" style="fill:white;stroke:rgb(17,17,17);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="835" y="483" width="8" height="32" style="fill:white;stroke:rgb(17,17,17);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="849" y="470" width="8" height="45" style="fill:white;stroke:rgb(17,17,17);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="877" y="460" width="8" height="55" style="fill:white;stroke:rgb(17,17,17);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="891" y="475" width="8" height="40" style="fill:white;stroke:rgb(17,17,17);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <path d="M1061,640L1061,682C1061,686.415 1057.415,690 1053,690L789,690C784.585,690 781,686.415 781,682L781,640C781,635.585 784.585,632 789,632L1053,632C1057.415,632 1061,635.585 1061,640Z" style="fill:white;stroke:rgb(230,106,0);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,921,668)">
+            <text x="-105.739px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:18px;fill:rgb(17,17,17);">L</text>
+            <text x="-96.141px" y="5.994px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:10.494px;fill:rgb(17,17,17);">θ</text>
+            <text x="-89.695px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:18px;fill:rgb(17,17,17);">=e</text>
+            <text x="-65.358px" y="5.994px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:10.494px;fill:rgb(17,17,17);">0</text>
+            <g transform="matrix(18,0,0,18,105.73857,0)">
+            </g>
+            <text x="-58.722px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:18px;fill:rgb(17,17,17);">/N+additional loss</text>
+        </g>
+        <g transform="matrix(1,0,0,1,5,-18)">
+            <g transform="matrix(1,0,0,1,916,480)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;fill:rgb(230,106,0);">participation entropy</text>
+                <g transform="matrix(15,0,0,15,117.489697,15)">
+                </g>
+                <text x="17.591px" y="15px" style="font-family:'Helvetica';font-size:15px;fill:rgb(230,106,0);">(concentratio<tspan x="104.152px " y="15px ">n</tspan>)</text>
+            </g>
+            <g transform="matrix(1,0,0,1,926,517)">
+                <text x="4.709px" y="0px" style="font-family:'Helvetica';font-size:15px;fill:rgb(230,106,0);">Renyi-2 entropy</text>
+                <g transform="matrix(15,0,0,15,108.098145,15)">
+                </g>
+                <text x="7.207px" y="15px" style="font-family:'Helvetica';font-size:15px;fill:rgb(230,106,0);">(entanglement)</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,921,725)">
+            <text x="-60.504px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:18px;fill:rgb(230,106,0);">optimize theta</text>
+        </g>
+        <path d="M732,470L748,470" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M1090,470L1106,470" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,53,25)">
+        <g transform="matrix(1,0,0,1,1279,224)">
+            <text x="-153.291px" y="0px" style="font-family:'Helvetica';font-size:21px;fill:rgb(106,105,0);">4. <tspan x="-130.312px -119.812px -108.133px " y="0px 0px 0px ">Tea</tspan>ch NQS from the Ritz state</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1279,265)">
+            <text x="-73.719px" y="0px" style="font-family:'Helvetica';font-size:18px;fill:rgb(17,17,17);">Ritz vector</text>
+            <text x="16.298px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:20px;fill:rgb(17,17,17);">v</text>
+            <text x="25.918px" y="6.66px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:11.66px;fill:rgb(17,17,17);">0</text>
+            <text x="36.691px" y="0px" style="font-family:'Helvetica';font-size:18px;fill:rgb(17,17,17);">on S</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1279,288)">
+            <text x="-82.13px" y="0px" style="font-family:'Helvetica';font-size:15px;fill:rgb(17,17,17);">(amplitudes and phases)</text>
+        </g>
+        <g transform="matrix(1,0,0,1,11,0)">
+            <rect x="1209" y="351" width="7" height="24" style="fill:rgb(111,160,232);stroke:rgb(31,78,158);stroke-width:1px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="1221" y="330" width="7" height="45" style="fill:rgb(111,160,232);stroke:rgb(31,78,158);stroke-width:1px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="1233" y="339" width="7" height="36" style="fill:rgb(111,160,232);stroke:rgb(31,78,158);stroke-width:1px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="1245" y="321" width="7" height="54" style="fill:rgb(111,160,232);stroke:rgb(31,78,158);stroke-width:1px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="1257" y="355" width="7" height="20" style="fill:rgb(111,160,232);stroke:rgb(31,78,158);stroke-width:1px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="1293" y="342" width="7" height="33" style="fill:rgb(0,156,105);stroke:rgb(31,78,158);stroke-width:1px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="1305" y="326" width="7" height="49" style="fill:rgb(0,156,105);stroke:rgb(31,78,158);stroke-width:1px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            <rect x="1317" y="346" width="7" height="29" style="fill:rgb(0,156,105);stroke:rgb(31,78,158);stroke-width:1px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <path d="M1279,385L1279,415" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M1349,425L1349,465C1349,470.519 1344.519,475 1339,475L1219,475C1213.481,475 1209,470.519 1209,465L1209,425C1209,419.481 1213.481,415 1219,415L1339,415C1344.519,415 1349,419.481 1349,425Z" style="fill:rgb(248,244,251);stroke:rgb(111,66,161);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,1279,438)">
+            <text x="-52.031px" y="0px" style="font-family:'Helvetica';font-size:18px;fill:rgb(111,66,161);">phase-aware</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1279,461)">
+            <g transform="matrix(18,0,0,18,29.518066,0)">
+            </g>
+            <text x="-29.518px" y="0px" style="font-family:'Helvetica';font-size:18px;fill:rgb(111,66,161);">training</text>
+        </g>
+        <path d="M1279,475L1279,510" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <path d="M1374,520L1374,565C1374,570.519 1369.519,575 1364,575L1194,575C1188.481,575 1184,570.519 1184,565L1184,520C1184,514.481 1188.481,510 1194,510L1364,510C1369.519,510 1374,514.481 1374,520Z" style="fill:white;stroke:rgb(31,78,158);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,1280,546)">
+            <text x="-74.333px" y="0px" style="font-family:'Helvetica';font-size:17px;fill:rgb(17,17,17);">T<tspan x="-64.572px -58.911px " y="0px 0px ">ra</tspan>nsformer update</text>
+        </g>
+        <g transform="matrix(1.46,0,0,0.78,-629.74,148.3)">
+            <path d="M1369,575L1419,620L1369,665L1319,620L1369,575Z" style="fill:rgb(0,156,105);fill-opacity:0.36;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1370,636)">
+            <g transform="matrix(16,0,0,16,49.800781,0)">
+            </g>
+            <text x="-49.801px" y="0px" style="font-family:'Helvetica';font-size:16px;fill:rgb(17,17,17);">accept / reject</text>
+        </g>
+        <path d="M1369,665C1369,715 1279,715 1279,575" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        <g transform="matrix(1,0,0,1,1133,617)">
+            <g transform="matrix(15,0,0,15,9.418945,0)">
+            </g>
+            <g transform="matrix(15,0,0,15,13.586426,0)">
+            </g>
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;fill:rgb(17,17,17);">• ﬁt Ritz amplitudes</text>
+            <text x="7.603px" y="15px" style="font-family:'Helvetica';font-size:15px;fill:rgb(17,17,17);">and phases on S</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1133,653)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;fill:rgb(17,17,17);">• retain some <tspan x="91.135px 101.14px " y="0px 0px ">AN</tspan>N</text>
+            <text x="35.559px" y="15px" style="font-family:'Helvetica';font-size:15px;fill:rgb(17,17,17);">samples</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1279,725)">
+            <text x="-89.046px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:18px;fill:rgb(106,105,0);">phase-aware teacher</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,53,25)">
+        <path d="M1279,752C1279,830 205,830 205,756" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:4px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,53,25)">
+        <g transform="matrix(1.43125,0,0,1.43125,-403.5,-370.01875)">
+            <path d="M880,812.59L880,835.41C880,838.495 877.495,841 874.41,841L725.59,841C722.505,841 720,838.495 720,835.41L720,812.59C720,809.505 722.505,807 725.59,807L874.41,807C877.495,807 880,809.505 880,812.59Z" style="fill:white;stroke:rgb(17,17,17);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,741,819)">
+            <text x="-89.231px" y="0px" style="font-family:'Helvetica';font-size:30px;fill:rgb(17,17,17);">AdaptiveStep</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,1067,-25)">
+        <g transform="matrix(0.978082,0,0,0.785366,3.534247,186.512195)">
+            <path d="M435,875.373L435,1039.627C435,1050.871 427.67,1060 418.641,1060L86.359,1060C77.33,1060 70,1050.871 70,1039.627L70,875.373C70,864.129 77.33,855 86.359,855L418.641,855C427.67,855 435,864.129 435,875.373Z" style="fill:white;stroke:rgb(94,94,94);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,246.5,888)">
+            <text x="-153.431px" y="0px" style="font-family:'Helvetica';font-size:21px;fill:rgb(0,156,105);">Studied frustrated<tspan x="13.383px " y="0px "> </tspan>model families</text>
+        </g>
+        <g transform="matrix(1,0,0,1,203,923)">
+            <text x="14.423px" y="0px" style="font-family:'Helvetica';font-size:18px;fill:rgb(17,17,17);">square-lattice</text>
+            <text x="2.087px" y="18px" style="font-family:'Helvetica';font-size:18px;fill:rgb(17,17,17);">J</text>
+            <text x="11.087px" y="23.994px" style="font-family:'Helvetica';font-size:10.494px;fill:rgb(17,17,17);">1</text>
+            <text x="16.924px" y="18px" style="font-family:'Helvetica';font-size:18px;fill:rgb(17,17,17);">-J</text>
+            <text x="31.918px" y="23.994px" style="font-family:'Helvetica';font-size:10.494px;fill:rgb(17,17,17);">2</text>
+            <text x="42.755px" y="18px" style="font-family:'Helvetica';font-size:18px;fill:rgb(17,17,17);">Heisenberg</text>
+        </g>
+        <g transform="matrix(1,0,0,1,166,976)">
+            <text x="36.501px" y="0px" style="font-family:'Helvetica';font-size:18px;fill:rgb(17,17,17);">honeycomb lattice</text>
+            <text x="0px" y="18px" style="font-family:'Helvetica';font-size:18px;fill:rgb(17,17,17);">Kitaev-Gamma-Heisenberg</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-46,-2)">
+            <g transform="matrix(1,0,0,1,46,-7)">
+                <path d="M105,923L129,923" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,46,-7)">
+                <path d="M105,923L105,947" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,46,-7)">
+                <circle cx="105" cy="923" r="4" style="fill:rgb(31,78,158);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,46,-7)">
+                <path d="M129,923L129,947" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,46,-7)">
+                <circle cx="129" cy="923" r="4" style="fill:rgb(31,78,158);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,46,-7)">
+                <path d="M105,947L129,947" style="fill:none;fill-rule:nonzero;stroke:rgb(31,78,158);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,46,-7)">
+                <circle cx="105" cy="947" r="4" style="fill:rgb(31,78,158);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,46,-7)">
+                <circle cx="129" cy="947" r="4" style="fill:rgb(31,78,158);"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,9,-61)">
+            <path d="M90,1040L99,1024L117,1024L126,1040L117,1056L99,1056L90,1040Z" style="fill:none;fill-rule:nonzero;stroke:rgb(230,106,0);stroke-width:2.5px;stroke-linejoin:miter;stroke-miterlimit:4;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,84,-723)">
+        <g transform="matrix(1,0,0,0.696,630,198.64)">
+            <path d="M780,930.115L780,1014.885C780,1025.987 773.727,1035 766,1035L539,1035C531.273,1035 525,1025.987 525,1014.885L525,930.115C525,919.013 531.273,910 539,910L766,910C773.727,910 780,919.013 780,930.115Z" style="fill:white;stroke:rgb(31,78,158);stroke-width:1.5px;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8,5;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1237,858)">
+            <text x="0px" y="0px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:19px;fill:rgb(31,78,158);">Final solve</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1287,893)">
+            <g transform="matrix(18,0,0,18,104.009766,0)">
+            </g>
+            <text x="-104.01px" y="0px" style="font-family:'Helvetica';font-size:18px;fill:rgb(17,17,17);">large-M Ritz ED or DMRG</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,613,968)">
+        <text x="-5.669px" y="0px" style="font-family:'Helvetica';font-size:17px;fill:white;">A</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-454,769)">
+        <g transform="matrix(1,0,0,1,655,117)">
+            <text x="-104.485px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:42px;fill:rgb(17,17,17);">H</text>
+            <text x="-71.851px" y="13.986px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:24.486px;fill:rgb(17,17,17);">θ</text>
+            <text x="-59.265px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:42px;fill:rgb(17,17,17);">=U</text>
+            <text x="2.559px" y="13.986px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:24.486px;fill:rgb(17,17,17);">θ</text>
+            <text x="15.144px" y="-13.986px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:24.486px;fill:rgb(17,17,17);">†</text>
+            <text x="27.681px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:42px;fill:rgb(17,17,17);">HU</text>
+            <g transform="matrix(24.486,0,0,24.486,104.485122,13.986)">
+            </g>
+            <text x="91.899px" y="13.986px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:24.486px;fill:rgb(17,17,17);">θ</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1003,116)">
+            <text x="-214.823px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:42px;">∣Ψ</text>
+            <text x="-173.159px" y="13.986px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:24.486px;">ω</text>
+            <text x="-156.998px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:42px;">⟩(</text>
+            <text x="-127.766px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:42px;fill:rgb(17,17,17);">θ) = U</text>
+            <text x="-9.62px" y="13.986px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:24.486px;fill:rgb(17,17,17);">θ</text>
+            <text x="8.72px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:42px;">∣Ψ</text>
+            <text x="50.384px" y="13.986px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:24.486px;">ω</text>
+            <g transform="matrix(42,0,0,42,80.78303,0)">
+            </g>
+            <text x="66.545px" y="0px" style="font-family:'STIXTwoMath-Regular', 'STIX Two Math', serif;font-size:42px;">⟩</text>
+        </g>
+    </g>
+</svg>
